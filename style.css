@@ -1,0 +1,93 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+img {
+    max-width: 100%;
+    max-height: 100%;
+}
+button {
+    border: none;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(225, 100%, 94%);
+    font-family: Red Hat Display, sans-serif;
+}
+header {
+    width: 100%;
+}
+.card {
+    width: 90%;
+    max-width: 450px;
+    border-radius: 1.4em;
+    overflow: hidden;
+    background-color: white;
+    text-align: center;
+}
+h1 {
+    margin-block: 1rem;
+    font-weight: 900;
+}
+
+main > p {
+    width: 75%;
+    margin: auto;
+    line-height: 1.7;
+}
+
+.plan {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-block: 3rem;
+}
+.plan > div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.plan h2 {
+    font-size: 1rem;
+    font-weight: 900;
+}
+
+.plan button {
+    color: hsl(245, 75%, 52%);
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.checkout {
+    width: 90%;
+    margin: auto;
+}
+.checkout button {
+   display: block;
+   width: 100%;
+   margin: auto;
+   padding: 1.3rem 3rem;
+   border-radius: 1em;
+   font-weight: 700;
+   font-size: 1rem;
+}
+
+.checkout button:first-child {
+    background-color: hsl(245, 75%, 52%);
+    color: white;
+}
+
+.secondary {
+    color: hsl(224, 23%, 55%);
+}
+.primary {
+    color: hsl(223, 47%, 23%);
+}
+
