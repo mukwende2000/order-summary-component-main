@@ -11,6 +11,9 @@ img {
 }
 button {
     border: none;
+   transition: 300ms;
+   cursor: pointer;
+
 }
 
 body {
@@ -65,6 +68,11 @@ main > p {
     text-decoration: underline;
 }
 
+.plan button:hover {
+    text-decoration: none;
+    opacity: .5;
+}
+
 .checkout {
     width: 90%;
     margin: auto;
@@ -77,11 +85,20 @@ main > p {
    border-radius: 1em;
    font-weight: 700;
    font-size: 1rem;
+   cursor: pointer;
 }
 
 .checkout button:first-child {
     background-color: hsl(245, 75%, 52%);
     color: white;
+}
+
+.checkout button:first-child:hover {
+    opacity: .5;
+}
+
+.checkout button:last-child:hover {
+    color: hsl(223, 47%, 23%);
 }
 
 .secondary {
